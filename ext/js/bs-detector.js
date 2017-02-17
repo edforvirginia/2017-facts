@@ -308,9 +308,9 @@ BSDetector.prototype = {
 
 
         if (this.dataType === 'caution') {
-            this.warnMessage = '⚠️ Caution: Source may be reliable but contents require further verification.';
+            this.warnMessage = 'THIS IS MY CUSTOMIZED WARNING MESSAGE';
         } else {
-            this.warnMessage = '⚠️ Warning: This may not be a reliable source. (' + classType + ')';
+            this.warnMessage = 'THIS IS MY SECOND CUSTOMIZED WARNING MESSAGE';
         }
 
         this.debug('this.warnMessage: ', this.warnMessage);
