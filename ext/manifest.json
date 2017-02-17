@@ -1,10 +1,10 @@
 {
-  "name": "B.S. Detector",
-  "version": "0.2.8",
+  "name": "2017 Facts",
+  "version": "0.1",
   "manifest_version": 2,
   "default_locale": "en",
-  "description": "Warns users about unreliable news sources.",
-  "homepage_url": "https://github.com/selfagency/bs-detector",
+  "description": "Keeps voters informed about the 2017 Virginia Elections",
+  "homepage_url": "https://edforvirginia.com",
   "permissions": [
     "*://unshorten.me/*",
     "webRequest",
@@ -39,6 +39,6 @@
     "data/data.json"
   ],
   "page_action": {
-    "default_title": "B.S. Detector"
+    "default_title": "2017 Facts"
   }
 }
